@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/master.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>{{title}}</h1>
+    <div class="theBigDiv">
+
+        {{#data}}
+        <div class="results">
+        <a href="/users/{{id}}"><img class="avatars" src="{{avatar}}"></a>
+        <a href="/users/{{id}}"><h2 class="name">{{name}}</h2></a>
+
+        <h4 class="jobInfo">
+          {{#job}}{{.}}, {{/job}}
+          {{^job}}Available for Hire{{/job}}
+          {{company}}
+        </h4>
+      </div>
+
+        {{/data}}
+
+    </div>
+  </body>
+</html>

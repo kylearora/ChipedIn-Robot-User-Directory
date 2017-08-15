@@ -1,0 +1,23 @@
+{
+  "name": "creating_user_directory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylearora/creating_user_directory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylearora/creating_user_directory/issues"
+  },
+  "homepage": "https://github.com/kylearora/creating_user_directory#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mustache-express": "^1.2.5"
+  }
+}
