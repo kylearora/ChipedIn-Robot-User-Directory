@@ -15,11 +15,14 @@
           <h1 class="name">{{profile.name}}</h1>
 
           <h4 class="jobInfo">
+            {{profile.address.city}}, {{profile.address.country}} |
+
             {{profile.job}},
             {{profile.company}}
           </h4>
-
-          <h4>{{profile.email}} | {{profile.phone}}</h4>
+          <div class="contactInfo">
+            <h4>{{profile.email}} | {{profile.phone}}</h4>
+          </div>
           <div class="education">
             <h4 id="educationHeader">Education</h4>
             <h4 id="university">{{profile.university}}</h4>

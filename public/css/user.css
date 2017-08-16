@@ -1,13 +1,17 @@
 body {
+  height: 800px;
   display: flex;
   justify-content: center;
+  align-content: center;
+  font-family: helvetica;
 }
 
 .profileDiv {
   width: 800px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 12%;
 }
 
 .profileAvatars {
@@ -18,15 +22,26 @@ body {
   border: 2px solid grey;
   border-radius: 50%;
   margin-right: 20px;
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 44px;
+  margin-left: -1px;
+}
+
+.jobInfo{
+  margin-top: -10px;
+  margin-left: 2px;
 }
 
 .contactInfo {
   width: 60%;
   display: flex;
   width: 500px;
-  margin-left: 20px;
+  margin: -30px 0px 10px 2px;
 }
-.education_skills{
+.education_skills {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -35,18 +50,23 @@ body {
 
 .education {
   display: flex;
-  width: 100%;
+  width: 500px;;
+  margin-left: -87px;
 }
 
 #university{
-  margin-left: 15px;
+  font-weight: lighter;
+  margin-left: 14px;
 }
 
 .skills {
   display: flex;
+  margin-left: -55px;
+  margin-top: -20px;
   width: 100%;
 }
 
 #skillsList {
-  margin-left: 15px;
+  font-weight: lighter;
+  margin-left: 17px;
 }
