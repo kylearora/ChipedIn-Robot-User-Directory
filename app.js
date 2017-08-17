@@ -9,7 +9,7 @@ app.set('view engine', 'mustache')
 app.use( express.static('public'))
 
 app.get("/", function(request, response){
-  const title = "Express is super fun!"
+  const title = "ChipedIn: LinkedIn for Robots"
   const dataInfo = data.users
   response.render('index', {
     title: title,

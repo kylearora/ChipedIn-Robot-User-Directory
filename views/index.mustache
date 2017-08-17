@@ -13,10 +13,9 @@
         <div class="results">
           <a href="/users/{{id}}"><img class="avatars" src="{{avatar}}"></a>
           <a href="/users/{{id}}"><h2 class="name">{{name}}</h2></a>
-
           <h4 class="jobInfo">
-            {{#job}}{{.}}{{/job}}
-            {{^job}}<h3 class ="unemployed">Available for Hire</h3>{{/job}}
+            {{#job}}{{.}}, {{/job}}
+            {{^job}}<h4 class ="unemployed">Available for Hire</h3>{{/job}}
             {{company}}
           </h4>
         </div>

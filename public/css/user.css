@@ -33,6 +33,7 @@ body {
 .jobInfo{
   margin-top: -10px;
   margin-left: 2px;
+  font-weight: lighter;
 }
 
 .contactInfo {
@@ -41,6 +42,11 @@ body {
   width: 500px;
   margin: -30px 0px 10px 2px;
 }
+
+#contact {
+  font-weight: lighter;
+}
+
 .education_skills {
   display: flex;
   justify-content: center;
